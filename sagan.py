@@ -24,7 +24,7 @@ class Generator(nn.Module):
         curr_dim = conv_dim * mult
         self.l2 = nn.Sequential(
             SpectralNorm(nn.ConvTranspose2d(curr_dim, curr_dim // 2, 4, 2, 1)),
-            nn.BatchNorm2d(int(curr_dim / 2)),
+            nn.BatchNorm2d(curr_dim // 2),
             nn.ReLU()
         )
 
