@@ -1,3 +1,4 @@
 .idea
 notebooks/torch_data/CIFAR/
 notebooks/.ipynb_checkpoints/
+.DS_Store
