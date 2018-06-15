@@ -1,6 +1,8 @@
 # sagan_pytorch
 Self-Attention Generative Adversarial Networks implementation using this paper: https://arxiv.org/abs/1805.08318v1
 
+**tl;dr** Код в Jupyter Notebook [файле](https://github.com/thepowerfuldeez/sagan_pytorch/blob/master/notebooks/SAGAN.ipynb)
+
 Я провел небольшое исследование SAGAN в действии и сравнил эту архитектуру с популярной DCGAN.
 
 Принцип работы SAGAN:
@@ -51,4 +53,6 @@ DCGAN             |  SAGAN
 Результаты в целом получились схожие, но SAGAN обучался немного быстрее и итоговая модель весит в 3.4 раза меньше! (28 МБ против 95 МБ) 
 
 Можно было поставить обучаться значительно дольше, но в силу нехватки времени и ресурсов я ограничился этим результатом.
+
+Из перспектив, эту архитектуру можно применять не только на изображения, но еще и на текст.
 
